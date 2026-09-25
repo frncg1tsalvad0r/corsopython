@@ -4,9 +4,9 @@ import math
 def f(x):
     A = 3
     B = 3
-    omega = 0.2*
+    omega = 1
     alfa = 0.2*math.pi
-    return A*math.sin(x + alfa) + B*math.sin(x)
+    return A*math.sin(omega*x + alfa) + B*math.sin(omega*x)
 
 xs = []
 for i in range (-500, 500):
